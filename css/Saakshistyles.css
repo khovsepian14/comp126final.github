@@ -1,0 +1,30 @@
+.demo {
+    background-color: #c3cae0; 
+    padding: 0;
+}
+
+.menu a:hover,
+.menu a:focus {
+    background-color: #d6e6dd;
+    text-decoration: underline;  
+}
+
+.backgroundimg{
+    background-image: url('../img/cake-landscape.jpg');
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+p{
+    color: white;
+    text-align: center;
+}
+
