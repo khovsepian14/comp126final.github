@@ -6,9 +6,18 @@ body {
     background-color: #faf3fa;
     color: #333;
 }
+.demo {
+    background-color: #c3cae0; 
+    padding: 0;
+}
 
+.menu a:hover,
+.menu a:focus {
+    background-color: #d6e6dd;
+    text-decoration: underline;  
+}
 .header {
-    background-color: #aeb8d8;
+    background-color: #c3cae0;
     padding: 5px;
     text-align: center;
     color: white;
@@ -63,7 +72,6 @@ body {
     background-color: #c3c3e6;
     color: #333;
 }
-
 
 
 .site-footer {
