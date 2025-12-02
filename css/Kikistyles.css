@@ -1,3 +1,7 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .demo {
     background-color: #c3cae0; 
     padding: 0;
@@ -18,8 +22,10 @@
     max-width: 1100px;
     margin: 20px auto;     
     display: grid;
-    grid-template-columns: repeat(2, 1fr); 
+    grid-template-columns: 1fr; 
     gap: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .info-box {
@@ -47,7 +53,7 @@
 
 .cake-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 items first row */
+    grid-template-columns: repeat(2, 1fr); /* 3 items first row */
     gap: 25px;
     justify-items: center;
     margin-top: 20px;
@@ -72,10 +78,24 @@
     color: #87255B;
 }
 
-/* Descriptions */
 .cake-grid p {
     color: #87255B;
 }
 
+@media (min-width: 758px) {
+    .info-section {
+        max-width: 1100px;
+        grid-template-columns: repeat(2, 1fr); 
+    }
 
+    .best-selling {
+        max-width: 1000px;
+        padding: 20px 0;
+    }
+
+    .cake-grid {
+        grid-template-columns: repeat(3, 1fr); 
+        gap: 25px;
+    }
+}
 
