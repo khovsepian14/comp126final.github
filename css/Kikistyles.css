@@ -77,5 +77,26 @@
     color: #87255B;
 }
 
+.site-footer {
+    background-color: #aeb8d8;
+    color: #ffffff;
+    text-align: center;
+    padding: 40px 20px;
+    line-height: 1.5;
+}
+
+.footer-heading {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+
+.site-footer p {
+    font-size: 14px;
+    margin: 3px 0;
+}
+
 
 

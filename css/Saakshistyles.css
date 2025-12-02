@@ -9,6 +9,7 @@
     text-decoration: underline;  
 }
 
+
 .backgroundimg{
     background-image: url('../img/cake-landscape.jpg');
     width: 100%;
@@ -26,5 +27,26 @@ h1{
 p{
     color: white;
     text-align: center;
+}
+
+.site-footer {
+    background-color: #aeb8d8;
+    color: #ffffff;
+    text-align: center;
+    padding: 40px 20px;
+    line-height: 1.5;
+}
+
+.footer-heading {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+
+.site-footer p {
+    font-size: 14px;
+    margin: 3px 0;
 }
 
