@@ -82,7 +82,7 @@ body{
     color: #87255B;
 }
 
-@media (min-width: 758px) {
+@media (min-width: 768px) {
     .info-section {
         max-width: 1100px;
         grid-template-columns: repeat(2, 1fr); 
