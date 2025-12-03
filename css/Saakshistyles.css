@@ -1,18 +1,21 @@
-body{
-    font-family: 'Montserrat';
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .demo {
-    background-color: #c3cae0; 
+    background-color: #b370b0; 
     padding: 0;
+    color:  black;
+    font-family: 'Montserrat';
 }
 
 .menu a:hover,
 .menu a:focus {
-    background-color: #d6e6dd;
+    background-color: #d1c8e1;
     text-decoration: underline;  
 }
-
 
 .backgroundimg{
     background-image: url('../img/cake-landscape.jpg');
@@ -23,22 +26,109 @@ body{
     margin: 0 auto;
 }
 
+.backgroundimg > p {
+    color: white;
+    font-family: 'Montserrat';
+}
+
 h1{
     color: white;
     text-align: center;
+    font-family: 'Montserrat';
 }
 
 p{
-    color: white;
+    color: #87255b;
+    text-align: center;
+    font-family: 'Montserrat';
+}
+
+.imagecontainer {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.imagecontainer > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image {
+    width: 70%;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat';
+}
+
+.story-container {
+    max-width: 500px;
+    width: 100%;
     text-align: center;
 }
 
+.story-header {
+    font-size: 28px;
+    font-weight: bold;
+    color: #86255b;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    font-family: 'Montserrat';
+}
+
+.story-text {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 30px;
+    text-align: left;
+    font-family: 'Montserrat'; 
+}
+
+.story-header {
+    font-size: 28px;
+    font-weight: bold;
+    color: black; 
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    font-family: 'Montserrat';
+}
+
+.button-container {
+    padding: 5%;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.order-button {
+    background-color: #87255b; 
+    color: #ffffff;            
+    font-size: 15px;
+    font-family: 'Montserrat';
+    padding: 5%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.order-button:hover {
+    background-color: #c3c3e6;
+}
+
 .site-footer {
-    background-color: #aeb8d8;
+    background-color: #b370b0;
     color: #ffffff;
     text-align: center;
     padding: 40px 20px;
     line-height: 1.5;
+    font-family: 'Montserrat';
 }
 
 .footer-heading {
@@ -47,10 +137,107 @@ p{
     margin-top: 30px;
     margin-bottom: 5px;
     letter-spacing: 1px;
+    font-family: 'Montserrat';
 }
 
 .site-footer p {
     font-size: 14px;
     margin: 3px 0;
+    color: white;
 }
+
+@media (min-width: 768px) {
+    .demo {
+        color: white;
+}
+
+    .story-container {
+    width: 100%;
+    background-color: white;
+    padding: 2% 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.story-header {
+    font-size: 2.5rem;
+    letter-spacing: 2px;  
+    font-family: 'Montserrat';
+    color: #86255b
+}
+
+.story-text {
+    max-width: 700px;     
+    text-align: left;  
+    line-height: 1.8;
+    font-size: 18px;
+    font-family: 'Montserrat';
+}
+
+.imagecontainer {
+    flex-direction: row;
+    justify-content: center; 
+    gap: 10px;
+}
+
+.imagecontainer > div {
+    flex: 1;
+    max-width: 30%;
+    font-family: 'Montserrat';
+}
+
+.image {
+    width: 70%;
+    height: 80%;
+    object-fit: cover; 
+    border-radius: 5px;
+}
+
+.button-container {
+    padding: 3%;
+    display: flex;
+    width: 100%;
+}
+
+.order-button {
+    color: #ffffff;            
+    font-size: 15px;
+    font-family: 'Montserrat';
+    padding: 2.5%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.site-footer {
+    display: flex; 
+    justify-content: center;
+    gap: 100px;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.footer-heading {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+    font-family: 'Montserrat';
+}
+
+.site-footer p {
+    font-size: 14px;
+    margin: 3px 0;
+    font-family: 'Montserrat';
+    color: white;
+}
+
+}
+
 
