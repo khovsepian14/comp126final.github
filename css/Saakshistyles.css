@@ -57,7 +57,7 @@ p{
 }
 
 .imagecontainer p {
-    margin-top: 10px;
+    margin-top: 2%;
 }
 
 .image {
@@ -76,18 +76,18 @@ p{
 }
 
 .story-header {
-    font-size: 28px;
+    font-size: 4rem;
+    font-family: 'Montserrat';
     font-weight: bold;
     color: #86255b;
     margin-bottom: 20px;
     letter-spacing: 2px;
-    font-family: 'Montserrat';
 }
 
 .story-text {
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 1.6;
-    color: #555;
+    color: black;
     margin-bottom: 30px;
     text-align: left;
     font-family: 'Montserrat'; 
@@ -95,9 +95,9 @@ p{
 }
 
 .story-header {
-    font-size: 28px;
+    font-size: 2.5rem;
     font-weight: bold;
-    color: black; 
+    color:#86255b;
     margin-bottom: 20px;
     letter-spacing: 2px;
     font-family: 'Montserrat';
@@ -116,7 +116,7 @@ p{
     color: #ffffff;            
     font-size: 15px;
     font-family: 'Montserrat';
-    padding: 10%;
+    padding: 40%;
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -146,7 +146,7 @@ p{
 }
 
 .site-footer p {
-    font-size: 14px;
+    font-size: 1rem;
     margin: 3px 0;
     color: white;
 }
@@ -203,7 +203,7 @@ p{
 }
 
 .button-container {
-    padding: 3;
+    padding: 3%;
     display: flex;
     width: 100%;
 }
