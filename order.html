@@ -3,14 +3,14 @@
     <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Order a Cake</title>
+    <title>Order</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/picnic">
     <link rel="stylesheet" href="css/Bridgetstyles.css">
     <!-- google font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-        <!--google font-->
+    <!--google font-->
         
 </head>
 <body>
@@ -18,56 +18,82 @@
         <div style="overflow: hidden;height: 60px;"> 
             <nav class="demo">
                 <a href="#" class="brand">
-                <img class="logo" src="img/logo.jpeg" alt="Made by Maria Logo!"/>
-                <span>Made by Maria</span>
+                    <img class="logo" src="img/logo.png" alt="Logo"/>
+                    <span>Made by Maria</span>
                 </a>
                 <input id="bmenub" type="checkbox" class="show">
                 <label for="bmenub" class="burger pseudo button">Menu</label>
 
-                    <div class="menu">
+                <div class="menu">
                     <a href="index.html" class="pseudo button icon-picture">Home</a>
                     <a href="cake.html" class="pseudo button icon-picture">Cake</a>
-                    <a href="order.html" class="pseudo button icon-picture">Feedback</a>
-                    </div>
+                    <a href="order.html" class="pseudo button icon-picture">Order</a>
+                </div>
             </nav>   
         </div>    
     </header>
 
-<body>
     <header class="header">
         <h1>Order from us!</h1>
     </header>
 
-    <section class="order-container">
-        <h2>Place Your Order</h2>
+    <main class="order-layout">
+        <section class="order-container">
+            <h2>Place Your Order</h2>
 
-        <form class="order-form">
-            <label for="name">Full Name</label>
-            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            <form class="order-form">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
 
-            <label for="email">Email Address</label>
-            <input type="email" id="email" name="email" placeholder="email@example.com" required>
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="email@example.com" required>
 
-            <label for="phone">Phone Number</label>
-            <input type="tel" id="phone" name="phone" placeholder="(123) 456-7890" required>
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="(123) 456-7890" required>
 
-            <label for="cake">Select Your Cake</label>
-            <select id="cake" name="cake" required>
-                <option value="" disabled selected>Choose one...</option>
-                <option value="Double Layered Cake">Double Layered Cake</option>
-                <option value="Vanilla Birthday">Vanilla Bean</option>
-                <option value="Red Velvet">Red Velvet</option>
-                <option value="Strawberry Shortcake">Strawberry Shortcake</option>
-                <option value="Ice Cream Cake">Ice Cream Cake</option>
-            </select>
+                <label for="cake">Select Your Cake</label>
+                <select id="cake" name="cake" required>
+                    <option value="" >Choose one...</option>
+                    <option value="Double Layered Cake">Double Layered Cake</option>
+                    <option value="Vanilla Birthday">Vanilla Birthday</option>
+                    <option value="Red Velvet">Red Velvet</option>
+                    <option value="Strawberry Shortcake">Strawberry Shortcake</option>
+                    <option value="Ice Cream Cake">Ice Cream Cake</option>
+                </select>
 
-            <label for="special">Special Requests</label>
-            <input id="special" name="special" placeholder="Color requests, allergies, dietary restrictions, etc..." >
+                <label for="special">Special Requests</label>
+                <input id="special" name="special" placeholder="Color requests, allergies, dietary restrictions, etc..." >
 
-            <button type="submit" class="submit-btn">Submit Order</button>
-        </form>
-    </section>
+                <button type="submit" class="submit-btn">Submit Order</button>
+            </form>
+        </section>
 
+        <section class="order-info">
+            <h2>Thank You for Supporting!</h2>
+            <p>
+                We are so excited to recieve your order. Please use the order form to enter your contact information and select your cake type! Be sure to list any preferences and dietary restrictions in the "Special Requests" section. 
+            </p>
+            <p>
+                After you place your order:
+            </p>
+            <ul>
+                <li>We will email you within 2 buisness days to confirm your order.</li>
+                <li>We will follow up with any questions regarding special requests.</li>
+                <li>Payment and drop off will be arranged once your order is processing.</li>
+            </ul>
+            <p>
+                <strong>Tips for a smooth order:</strong>
+            </p>
+            <ul>
+                <li>Make sure your email and phoen number are in proper format to avoid an error message. </li>
+                <li>Be clear when making special requests, we do our best to accomodate all needs!</li>
+                <li>Order at least 3 days before desired pickup to ensure we have enough time to complete your order. </li>
+            </ul>
+            <p>
+                Thank you again for choosing Made by Maria and supporting a small business!
+            </p>
+        </section>
+    </main>
 
     <footer class="site-footer">
         <section class="footer-section location-info">
@@ -79,7 +105,7 @@
         <section class="footer-section contact-info">
             <h3 class="footer-heading">CONTACT US:</h3>
             <p>(919) 446-6068</p>
-            <p> Email: madebymaria@gmail.com</p>
+            <p>Email: madebymaria@gmail.com</p>
             <p>Instagram: @madebymaria</p>
             <p>Facebook: @madebymaria</p>
         </section>
@@ -87,4 +113,3 @@
 
 </body>
 </html>
-
